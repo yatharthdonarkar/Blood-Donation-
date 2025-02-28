@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthcare Login Page</title>
+    <link rel="stylesheet" href="sign up.css" />
+
+    
+    <script type="module" src="signin.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-section">
+        <h1>Healthcare</h1>
+        <p>Please Enter your Account details</p>
+        <form id="loginForm" onsubmit="signIn(event)">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+          />
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" />
+          <a href="#" class="forgot-password">Forgot Password</a>
+          <button type="submit" class="sign-in"><a href="Frount.html" >Sign-in</button></a>
+        </form>
+        <div class="social-login">
+          <a href="https://www.google.com/imghp?hl=en&tab=ri&authuser=0&ogbl"
+            >Google</a
+          >
+          <a href="https://github.com/">Github</a>
+          <a href="https://www.facebook.com/">Facebook</a>
+        </div>
+        <a href="#" class="create-account">Create an account</a>
+      </div>
+      <div class="testimonial-section">
+        <h2>What's our Healthcare.</h2>
+        <blockquote>
+          "Empowering Your Health, Every Step of the Way, Caring for You, Every
+          Moment"
+        </blockquote>
+        <div class="navigation">
+          <button class="nav-left">&lt;</button>
+          <button class="nav-right">&gt;</button>
+        </div>
+        <div class="call-to-action">
+          <h3>"Your Health, Our Commitment"</h3>
+          <p>"Healthcare: Committed to Your Well-being and Quality of Life."</p>
+        </div>
+      </div>
+      <div id="successMessage" style="display: none"></div>
+    </div>
+    <script src="signin.js"></script>
+  </body>
+</html>
