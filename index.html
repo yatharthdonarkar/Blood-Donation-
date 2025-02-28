@@ -12,9 +12,9 @@
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="register.html">Register</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about us.html">About Us</a></li>
+          <li><a href="profile.html">Donar Profile</a></li>
+          <li><a href="https://formsubmit.co/el/letagi">Feedback</a></li>
         </ul>
       </nav>
     </header>
@@ -59,3 +59,27 @@
     </footer>
   </body>
 </html>
+<script src='https://cdn.jotfor.ms/s/umd/latest/for-embedded-agent.js'></script>
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+    window.AgentInitializer.init({
+      agentRenderURL: "https://agent.jotform.com/01954bcc490c79ceb9332fe0b8b7fd2ece88",
+      rootId: "JotformAgent-01954bcc490c79ceb9332fe0b8b7fd2ece88",
+      formID: "01954bcc490c79ceb9332fe0b8b7fd2ece88",
+      queryParams: ["skipWelcome=1", "maximizable=1"],
+      domain: "https://www.jotform.com",
+      isDraggable: false,
+      background: "linear-gradient(180deg, #6C73A8 0%, #6C73A8 100%)",
+      buttonBackgroundColor: "#0066C3",
+      buttonIconColor: "#FFFFFF",
+      variant: false,
+      customizations: {
+        "greeting": "Yes",
+        "greetingMessage": "Hi! How can I assist you?",
+        "pulse": "Yes",
+        "position": "right"
+      },
+      isVoice: undefined
+    });
+  });
+</script>

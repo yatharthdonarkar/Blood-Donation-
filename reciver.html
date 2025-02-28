@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blood Receiver Form</title>
+    <link rel="stylesheet" href="reciver.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Blood Receiver Form</h2>
+      <form action="https://formspree.io/f/xldgqdoo" method="POST">
+        <label for="receiverName">Receiver Name:</label>
+        <input type="text" id="receiverName" name="receiverName" required />
+
+        <label for="receiverContact">Contact Number:</label>
+        <input
+          type="tel"
+          id="receiverContact"
+          name="receiverContact"
+          required
+        />
+
+        <label for="receiverEmail">Email:</label>
+        <input type="email" id="receiverEmail" name="receiverEmail" required />
+
+        <label for="bloodTypeRequired">Blood Type Required:</label>
+        <input
+          type="text"
+          id="bloodTypeRequired"
+          name="bloodTypeRequired"
+          required
+        />
+
+        <label for="quantityRequired">Quantity Required (in units):</label>
+        <input
+          type="number"
+          id="quantityRequired"
+          name="quantityRequired"
+          required
+        />
+
+        <button type="submit">Submit</button>
+      </form>
+      <p id="message"></p>
+    </div>
+    <script src="reciver.js"></script>
+  </body>
+</html>
