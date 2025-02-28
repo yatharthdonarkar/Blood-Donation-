@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #home {
+    background-color: #ffe6e6;
+  }
+  
+  button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #cc0000;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form label, form input, form select {
+    margin: 0.5rem 0;
+  }
+  
+  form button {
+    margin-top: 1rem;
+  }
+  index.css
